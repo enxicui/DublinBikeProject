@@ -1,0 +1,242 @@
+/*************main background**********************/
+body{
+    background-color: #114B56;
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+.whitebkgnd{
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 2%;
+    padding: 5%;
+    max-width: 90%;
+    background-color: #f1f1f1;
+    border-radius: 15px;
+    height: 100%;
+
+}
+/***************************************************/
+
+
+
+/************************Nav Bar Start**********************/
+
+/*removes dots/bullet points from list*/
+.nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/*display nav horizontal*/
+.nav ul li {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+/*centers navbar buttons*/
+.nav ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav ul li {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Nav bar background colour*/
+.nav ul {
+    background-color: #114B56;
+}
+
+/*nav background colour on hovering over button*/
+.nav ul li a:hover {
+    background-color: #f1f1f1;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    color: black;
+}
+
+/*nav background colour on selected button*/
+.nav ul li a:active {
+    background-color: #f1f1f1;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    color: black;
+}
+
+/*text colour and decoration inside nav buttons*/
+.nav ul li a {
+    display: inherit;
+    color: white; /*text/link colour*/
+    /*spaces of and between buttons*/
+    padding-left: 47px;
+    padding-right: 47px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-decoration: none; /*text decoration none removes line under link on navbar*/
+}
+/************************Nav Bar end**********************/
+
+
+
+/****************Index Page Map*****************************/
+ #map {
+  height: 60%;
+  width: 60%;
+ }
+
+.map {
+    height: 60%;
+    width: 60%; 
+}
+
+/**********************Index page map end*******************/
+
+
+
+/**********************alert box start*******************/
+.alerts-container {
+    margin: 1%;
+    width: 23%;
+    float: right;
+    height: 500px;
+    overflow: auto;
+    max-width: 90%;
+    background-color: rgba(0, 0, 0, 0.25);
+    box-shadow: 1px 1px 5px black;
+    border-radius: 15px;
+    padding: 1%;
+    color: black;
+    text-align: left;
+}
+
+
+/**********************alert box end*******************/
+
+
+
+/*******************enxi's css*******************/
+
+      .jumbotron {
+            background-color: blueviolet;
+            margin-top: 100px;
+            margin-right: 20%;
+            float: right;
+            text-align: center;
+            opacity: 0.2;
+          list-style-type: none;
+        }
+
+        #map {
+            width: 700px;
+            height: 700px;
+
+        }
+
+        #weather {
+            height: 100% ;
+            padding: 10px; 
+            border: #5f788a solid;
+            width: 15%;
+            margin: 0 auto;
+            padding: 0;
+            position: relative;
+            z-index: 99;
+            left: 5%; 
+            color: white; 
+            text-shadow: black; 
+            background-color: rgba(0, 0, 0, 0.25); 
+            box-shadow: 1px 1px 5px black;
+            padding: 1px;
+            border-radius: 1px;
+            font-weight: bold;
+            font-size: 100%; 
+            bottom: 500px; 
+            margin-left: 50%;
+            list-style-type: none;
+        }
+
+        .weather_box {
+            list-style-type: none;
+            background-color: rgba(0, 0, 0, 0.25);
+            box-shadow: 1px 1px 5px black;
+            padding: 50px;
+            border-radius: 10px;
+            font-family: sans-serif;
+            font-weight: bold;
+            font-size: 100%;
+            border: #5f788a;
+            bottom: 240px;
+            z-index: 99;
+            left: 30%; 
+            color: white; 
+            text-shadow: black;
+            width: 15%;
+            margin: auto;
+            position: relative;
+            padding: 0;
+        }
+
+.mapW{
+    list-style-type: none;
+}
+
+.weather-container{
+    list-style-type: none;
+}
+
+        #search_date {
+            background-color: rgba(0, 0, 0, 0.25);
+            box-shadow: 1px 1px 5px black;
+            padding: 50px;
+            border-radius: 10px;
+            font-family: sans-serif;
+            font-weight: bold;
+            font-size: 100%;
+            width: 35%;
+            margin: 0 auto;
+        }
+
+        #error {
+            background-color: rgba(0, 0, 0, 0.25);
+            box-shadow: 1px 1px 5px black;
+            padding: 50px;
+            border-radius: 10px;
+            font-family: sans-serif;
+            font-weight: bold;
+            font-size: 100%;
+
+
+        }
+/********************************************************************/
+
+
+/********************footer****************************/
+.footer{
+    margin-bottom: 5%;
+    margin-right: 1%;
+    margin-left: 1%;
+    max-width: 100%;
+    background-color: #f1f1f1;
+    border-radius: 15px;
+    padding: 1%;
+    align-content: center;
+}
+/******************************************************/
+
+
+
+/*************************text*****************************/
+.text {
+    text-align: justify;
+    font-family: sans-serif;
+}
+
+/***********************end text***************************/
